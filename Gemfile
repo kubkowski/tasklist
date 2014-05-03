@@ -43,6 +43,8 @@ gem 'unicorn'
 
 group :development, :test do
   gem 'rspec-rails', '2.13.1'
+  # Use sqlite3 as the database for Active Record
+	gem 'sqlite3'
 end
 
 group :test do
