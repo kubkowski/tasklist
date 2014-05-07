@@ -2,7 +2,7 @@
 	<nav class="top-bar" data-topbar>
 		<ul class="title-area">
     	<li class="name">
-      	<h1><a href="#">Task List</a></h1>
+      	<h1><%= link_to "Task List", tasks_path  %></h1>
     	</li>
      <!-- Remove the class "menu-icon" to get rid of menu icon. Take out "Menu" to just have icon alone -->
     	<li class="toggle-topbar menu-icon"><a href="#"><span>Menu</span></a></li>
@@ -11,8 +11,8 @@
 
 		<div class="top-bar-section">
 			<ul class="right">
-				<li><%= link_to "About",    '#' %></li>
-				<li><%= link_to "Contact Us",    '#' %></li>
+				<li><%= link_to "About",    'static_pages/about' %></li>
+				<li><%= link_to "Contact Us",    'static_pages/contact_us' %></li>
 			</ul>
 		</div>
 	</nav>	
