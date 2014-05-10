@@ -15,14 +15,3 @@
  *= require foundation_and_overrides
 
  */
-#footer{
-    height: 50px;
-    position: fixed;
-    bottom: 0px;
-    left: 0px;
-    line-height: 50px;
-    color: #ffffff;
-    text-align: center;
-    width: 100%;
-    background: #222222
-}

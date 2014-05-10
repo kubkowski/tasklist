@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -9,14 +10,13 @@
     <%= stylesheet_link_tag    "application" %>
     <%= javascript_include_tag "vendor/modernizr" %>
     <%= csrf_meta_tags %>
+    <%= render 'layouts/shim' %>
   </head>
 
   <body>
     <%= render 'layouts/header' %>
     <%= yield %>
     <%= javascript_include_tag "application" %>
-    <div id="footer">
-        My Awesome Footer 2014
-    </div>
+    <%= render 'layouts/footer' %>
   </body>
 </html>
