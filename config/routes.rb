@@ -5,7 +5,7 @@ Rails.application.routes.draw do
   get 'static_pages/about'
   get 'static_pages/contact_us'
 
-  root 'static_pages#home'
+  root 'tasks#index'
 
   
 
