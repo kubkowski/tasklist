@@ -1,5 +1,7 @@
 Rails.application.routes.draw do
   resources :tasks
+  match '/contacts', to: 'contacts#new', via: 'get'
+  resources "contacts", only: [:new, :create]
 
   get 'static_pages/home'
   get 'static_pages/about'

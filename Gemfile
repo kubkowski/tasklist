@@ -2,7 +2,8 @@ source 'https://rubygems.org'
 ruby '2.1.1'
 
 gem 'foundation-rails'
-
+gem 'mail_form'
+gem 'simple_form'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.1.0'
