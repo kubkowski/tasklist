@@ -4,6 +4,7 @@ ruby '2.1.1'
 gem 'foundation-rails'
 gem 'mail_form'
 gem 'simple_form'
+gem 'sorcery'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.1.0'
