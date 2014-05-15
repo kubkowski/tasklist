@@ -6,7 +6,7 @@
       <th>Name</th>
       <th>Description</th>
       <th>Planned date</th>
-      <th colspan="3"></th>
+      <th colspan="4"></th>
     </tr>
   </thead>
 
@@ -16,6 +16,7 @@
         <td><%= task.name %></td>
         <td><%= task.description %></td>
         <td><%= task.planned_date %></td>
+        <td><%= task.user_id %></td>
         <td><%= link_to 'Show', task, :class => 'button round' %></td>
         <td><%= link_to 'Edit', edit_task_path(task), :class => 'button round' %></td>
         <td><%= link_to 'Destroy', task, method: :delete, data: { confirm: 'Are you sure?' }, :class => 'button round' %></td>
