@@ -14,13 +14,15 @@
         <%= f.input :message, :as => :text, :required => true %>
       </div>
     </div>
-  </div>
     <div class= "hidden">
       <%= f.input :nickname, :hint => 'Leave this field blank!' %>
     </div>
-    <div>
-      </br>
-      <%= f.button :submit, 'Send message', :class=> 'button round' %>
+    <br />
+    <div class= "row">
+      <div class="large-12 columns">
+        <%= f.button :submit, 'Send message', :class=> 'button small round' %>
+      </div>
     </div>
+  </div>
   <% end %>
 </div>
